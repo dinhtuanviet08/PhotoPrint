@@ -1,0 +1,6 @@
+@PhotoPrintAPI_HostAddress = http://localhost:5064
+
+GET {{PhotoPrintAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
