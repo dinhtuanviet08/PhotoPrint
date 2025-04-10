@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Sem3_FPT\\.NET\\PrintPhoto\\PhotoPrintAPI\\PhotoPrintAPI.csproj": {}
+    "D:\\HK2\\.Net\\Project\\PhotoPrint\\PhotoPrintAPI.csproj": {}
   },
   "projects": {
-    "D:\\Sem3_FPT\\.NET\\PrintPhoto\\PhotoPrintAPI\\PhotoPrintAPI.csproj": {
+    "D:\\HK2\\.Net\\Project\\PhotoPrint\\PhotoPrintAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Sem3_FPT\\.NET\\PrintPhoto\\PhotoPrintAPI\\PhotoPrintAPI.csproj",
+        "projectUniqueName": "D:\\HK2\\.Net\\Project\\PhotoPrint\\PhotoPrintAPI.csproj",
         "projectName": "PhotoPrintAPI",
-        "projectPath": "D:\\Sem3_FPT\\.NET\\PrintPhoto\\PhotoPrintAPI\\PhotoPrintAPI.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\Sem3_FPT\\.NET\\PrintPhoto\\PhotoPrintAPI\\obj\\",
+        "projectPath": "D:\\HK2\\.Net\\Project\\PhotoPrint\\PhotoPrintAPI.csproj",
+        "packagesPath": "C:\\Users\\Tuan\\.nuget\\packages\\",
+        "outputPath": "D:\\HK2\\.Net\\Project\\PhotoPrint\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Tuan\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -84,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
