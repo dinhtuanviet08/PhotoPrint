@@ -46,3 +46,4 @@ D:\Sem3_FPT\.NET\PrintPhoto\PhotoPrintAPI\obj\Debug\net8.0\refint\PhotoPrintAPI.
 D:\Sem3_FPT\.NET\PrintPhoto\PhotoPrintAPI\obj\Debug\net8.0\PhotoPrintAPI.pdb
 D:\Sem3_FPT\.NET\PrintPhoto\PhotoPrintAPI\obj\Debug\net8.0\PhotoPrintAPI.genruntimeconfig.cache
 D:\Sem3_FPT\.NET\PrintPhoto\PhotoPrintAPI\obj\Debug\net8.0\ref\PhotoPrintAPI.dll
+D:\Sem3_FPT\.NET\PrintPhoto\PhotoPrintAPI\obj\Debug\net8.0\PhotoPrintAPI.sourcelink.json
