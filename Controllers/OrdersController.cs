@@ -29,15 +29,28 @@ namespace PhotoPrintAPI.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post(CreateOrderDto dto)
+        public async Task<IActionResult> Post([FromForm] CreateOrderWithImageDto dto)
         {
+            if (dto.Image == null || dto.Image.Length == 0)
+                return BadRequest("Image file is required.");
+
+            // Lưu ảnh vào thư mục wwwroot/images (bạn có thể thay đổi đường dẫn theo ý)
+            var fileName = Guid.NewGuid() + Path.GetExtension(dto.Image.FileName);
+            var filePath = Path.Combine("wwwroot/images", fileName);
+
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                await dto.Image.CopyToAsync(stream);
+            }
+
             var order = new Order
             {
                 Username = dto.Username,
-                ImageUrl = dto.ImageUrl,
+                ImageUrl = "/images/" + fileName, // hoặc lưu đường dẫn đầy đủ nếu cần
                 Quantity = dto.Quantity,
                 Size = dto.Size
             };
+
             await _orderService.CreateAsync(order);
             return CreatedAtAction(nameof(Get), new { id = order.Id }, order);
         }

@@ -1,10 +1,20 @@
+using Microsoft.AspNetCore.Http;
+using System.ComponentModel.DataAnnotations;
+
 namespace PhotoPrintAPI.DTOs
 {
-    public class CreateOrderDto
+    public class CreateOrderWithImageDto
     {
+        [Required]
         public string Username { get; set; }
-        public string ImageUrl { get; set; }
+
+        [Required]
         public int Quantity { get; set; }
+
+        [Required]
         public string Size { get; set; }
+
+        [Required]
+        public IFormFile Image { get; set; }
     }
 }
